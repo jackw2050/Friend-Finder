@@ -1,0 +1,21 @@
+{
+  "name": "friend-finder",
+  "description": "",
+  "main": "server.js",
+  "authors": [
+    "Jack Walker"
+  ],
+  "license": "ISC",
+  "homepage": "https://github.com/jackw2050/Friend-Finder",
+  "ignore": [
+    "**/.*",
+    "node_modules",
+    "bower_components",
+    "test",
+    "tests"
+  ],
+  "dependencies": {
+    "bootstrap": "^3.3.6",
+    "font-awesome": "^4.6.3"
+  }
+}
