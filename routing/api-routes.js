@@ -1,5 +1,15 @@
 
-module.exports = function( request, response){
+module.exports = function( request, response, next){
+
+var stream = process.stdout;
+var url = request.url;
+var method = request.method;
+var message = method + ' to ' + url ;
+stream.write(message); 
+
+next();
+
+
 
 }
 // Routes

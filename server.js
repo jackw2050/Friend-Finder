@@ -6,8 +6,8 @@ var path = require('path');
 // Sets up the Express App
 // =============================================================
 var app = express();
-var PORT = 3000;
-
+var PORT = 8080;
+var stream = process.stdout;
 // Sets up the Express app to handle data parsing 
 app.use(bodyParser.json());
 app.use(bodyParser.urlencoded({extended: true}));
@@ -18,6 +18,7 @@ app.use(express.static('public'));
 // Starts the server to begin listening 
 // =============================================================
 app.listen(PORT, function(){
+	
 	console.log('App listening on PORT ' + PORT);
 });
 
@@ -28,17 +29,17 @@ var friends = [
 	{
 		routeName: "yoda",
 		name: "Yoda",
-		photoPath: "Jedi Master",
-		answer1: 900,
-		answer2: 900,
-		answer3: 900,
-		answer4: 900,
-		answer5: 900,
-		answer6: 900,
-		answer7: 900,
-		answer8: 900,
-		answer9: 900,
-		answer10: 900,
+		photoPath: "http://static.srcdn.com/wp-content/uploads/Star-Wars-Alternate-Ending-Vader-Father-Yoda.jpg",
+		answer1: 3,
+		answer2: 5,
+		answer3: 1,
+		answer4: 3,
+		answer5: 2,
+		answer6: 5,
+		answer7: 2,
+		answer8: 1,
+		answer9: 4,
+		answer10: 2,
 			
 	}
 ]
@@ -50,10 +51,13 @@ var friends = [
 
 // Basic route that sends the user first to the AJAX Page
 app.get('/', function(req, res){
+	stream.write("serving " + res); 
+	console.log(app);
 	res.sendFile(path.join(__dirname, 'public/home.html'));
 });
 
 app.get('/survey', function(req, res){
+	//console.log(JSON.stringify(res, null, 2));
 	res.sendFile(path.join(__dirname, 'public/survey.html'));
 });
 
