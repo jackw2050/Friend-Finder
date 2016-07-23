@@ -8,7 +8,6 @@
     <!-- The above 3 meta tags *must* come first in the head; any other head content must come *after* these tags -->
     <meta name="description" content="">
     <meta name="author" content="">
-    <link rel="icon" href="../../favicon.ico">
     <title>Signin Template for Bootstrap</title>
     <!-- Bootstrap core CSS -->
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
@@ -26,22 +25,24 @@
         <h2>About You</h2>
         <div class="row">
             <div class="input-group input-group-lg col-md-8">
-                <span class="input-group-addon" id="sizing-addon1">Name (required)</span>
-                <label for="Username" class="sr-only">Name (required)</label>
-                <input type="text" id="Username" class="form-control" placeholder="Name" required autofocus>
+                <label for="name" class="sr-only">Name (required)</label>
+                <input type="text" name="" id="name" class="form-control" placeholder="Name" required autofocus>
+            
             </div>
         </div>
         <dir class="col-md-12"></dir>
         <div class="row">
             <div class="input-group input-group-lg col-md-8">
-                <span class="input-group-addon" id="sizing-addon2">Link to Photo (required)</span>
-                <input type="text" class="form-control" placeholder="Photo Link" aria-describedby="sizing-addon1">
+                <label for="photoLink" class="sr-only">Link to Photo (required)</label>
+             <input type="text" name="" id="photoLink" class="form-control" required >
+
             </div>
         </div>
         <div>
             <h2>Question 1</h2>
             <h3>Dogs are man's best friend</h3>
             <select data-placeholder="" class="dropDown" id="question1">>
+                <option value=""></option>
                 <option value="1">1 (Stongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -50,7 +51,8 @@
             </select>
             <h2>Question 2</h2>
             <h3>Pokemon Go is a great way to spend the day.</h3>
-            <select data-placeholder="" class="dropDown" id="question1">>
+            <select data-placeholder="" class="dropDown" id="question2">>
+                <option value=""></option>
                 <option value="1">1 (Stongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -59,7 +61,8 @@
             </select>
             <h2>Question 3</h2>
             <h3>MMA is for sissies.</h3>
-            <select data-placeholder="" class="dropDown" id="question1">>
+            <select data-placeholder="" class="dropDown" id="question3">>
+                <option value=""></option>
                 <option value="1">1 (Stongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -68,7 +71,8 @@
             </select>
             <h2>Question 4</h2>
             <h3>Best day ever.  Beer and my laptop.</h3>
-            <select data-placeholder="" class="dropDown" id="question1">>
+            <select data-placeholder="" class="dropDown" id="question4">>
+                <option value=""></option>
                 <option value="1">1 (Stongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -77,7 +81,8 @@
             </select>
             <h2>Question 5</h2>
             <h3></h3>
-            <select data-placeholder="" class="dropDown" id="question1">>
+            <select data-placeholder="" class="dropDown" id="question5">>
+                <option value=""></option>
                 <option value="1">1 (Stongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -86,7 +91,8 @@
             </select>
             <h2>Question 6</h2>
             <h3>DPokemon Go is a great way to spend the day.</h3>
-            <select data-placeholder="" class="dropDown" id="question1">>
+            <select data-placeholder="" class="dropDown" id="question6">>
+                <option value=""></option>
                 <option value="1">1 (Stongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -95,7 +101,8 @@
             </select>
             <h2>Question 7</h2>
             <h3>DPokemon Go is a great way to spend the day.</h3>
-            <select data-placeholder="" class="dropDown" id="question1">>
+            <select data-placeholder="" class="dropDown" id="question7">>
+                <option value=""></option>
                 <option value="1">1 (Stongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -104,7 +111,8 @@
             </select>
             <h2>Question 8</h2>
             <h3>DPokemon Go is a great way to spend the day.</h3>
-            <select data-placeholder="" class="dropDown" id="question1">>
+            <select data-placeholder="" class="dropDown" id="question8">>
+                <option value=""></option>
                 <option value="1">1 (Stongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -113,7 +121,8 @@
             </select>
             <h2>Question 9</h2>
             <h3>DPokemon Go is a great way to spend the day.</h3>
-            <select data-placeholder="" class="dropDown" id="question1">>
+            <select data-placeholder="" class="dropDown" id="question9">>
+                <option value=""></option>
                 <option value="1">1 (Stongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -122,7 +131,8 @@
             </select>
             <h2>Question 10</h2>
             <h3>DPokemon Go is a great way to spend the day.</h3>
-            <select data-placeholder="" class="dropDown" id="question1">>
+            <select data-placeholder="" class="dropDown" id="question10">>
+                <option value=""></option>
                 <option value="1">1 (Stongly Disagree)</option>
                 <option value="2">2</option>
                 <option value="3">3</option>
@@ -187,10 +197,10 @@
             // Create an object for the user's data
             var userData = {
                 name: $("#name").val(),
-                photo: $("#photo").val(),
-                scores: [$("#q1").val(), $("#q2").val(), $("#q3").val(), $("#q4").val(), $("#q5").val(), $("#q6").val(), $("#q7").val(), $("#q8").val(), $("#q9").val(), $("#q10").val(), ]
+                photo: $("#photoLink").val(),
+                answers: [$("#question1").val(), $("#question2").val(), $("#question3").val(), $("#question4").val(), $("#question5").val(), $("#question6").val(), $("#question7").val(), $("#question8").val(), $("#question9").val(), $("#question10").val(), ]
             }
-
+console.log(userData);
 
             // Grab the URL of the website
             var currentURL = window.location.origin;
@@ -200,7 +210,7 @@
 
                 // Grab the result from the AJAX post so that the best match's name and photo are displayed.
                 $("#matchName").text(data.name);
-                $('#matchImg').attr("src", data.photo);
+                $('#matchImg').attr("src", data.photoLink);
 
                 // Show the modal with the best match 
                 $("#resultsModal").modal('toggle');
@@ -217,9 +227,7 @@
     <script>
     window.jQuery || document.write('<script src="../../assets/js/vendor/jquery.min.js"><\/script>')
     </script>
-    <script src="../../dist/js/bootstrap.min.js"></script>
-    <!-- IE10 viewport hack for Surface/desktop Windows 8 bug -->
-    <script src="../../assets/js/ie10-viewport-bug-workaround.js"></script>
+    <script src="js/bootstrap.min.js"></script>
 </body>
 
 </html>
