@@ -68,7 +68,7 @@ app.post('/api/friends', function(req, res) {
     //friends.push(newcharacter.name);
 
 
-/*
+
     var friendSelector = [100,0];
     //console.log(friendSelector);
 
@@ -77,14 +77,17 @@ app.post('/api/friends', function(req, res) {
         var usr1 = 0;
         var frd1 = 0;
         var errorSumm = 0
+
+
         for (ansCount = 0; ansCount < 10; ansCount++) {
 
         	usr1 =   parseFloat(userInput.answers[ansCount]);
         	frd1 = friends[i].answers[ansCount];
 
             errorCheck[ansCount] = Math.abs(userInput.answers[ansCount] - friends[i].answers[ansCount])/userInput.answers[ansCount] ;
-            errorSumm += errorCheck[ansCount] ;
-        }
+               errorSumm += errorCheck[ansCount] ;
+               }
+
         errorSumm = errorSumm / 10;
         if (errorSumm < friendSelector[0]){
             friendSelector[0] = errorSumm;
@@ -95,17 +98,17 @@ app.post('/api/friends', function(req, res) {
 
         //console.log(friends[i].name + "   " +  errorSumm);
     }
+
     var testA = friendSelector[1];
     var testB = friends[0];
-    console.log(testB);
+    console.log(friends[0]);
 
 
 
 
-    */
 
 
-    res.json(friends);
+    res.json(friends[1]);
     //res.json(friends[friendSelector[1]]);
 })
 
@@ -126,6 +129,6 @@ app.get('/api/:newfriends?', function(req, res) {
         }
         res.json(false);
     } else {
-        res.json(friends);
+        res.json(friends[1]);
     }
 })
