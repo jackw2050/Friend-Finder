@@ -31,9 +31,9 @@ var friends = [
         answers: [1, 5, 1, 4, 4, 3, 2, 1, 3, 4]
     },
     {
-        routeName: "Chubaka",
-        name: "Chubaka",
-        photoPath: "http://static.srcdn.com/wp-content/uploads/Star-Wars-Alternate-Ending-Vader-Father-Yoda.jpg",
+        routeName: "chewbacca",
+        name: "chewbacca",
+        photoPath: "http://www.chewbacca.com/resources/chewie4.jpg",
         answers: [5, 5, 5, 1, 1, 5, 5, 5, 3, 4]
     }
 ];
@@ -76,7 +76,7 @@ app.post('/api/friends', function(req, res) {
         var errorCheck = [0,0,0,0,0,0,0,0,0,0];
         var usr1 = 0;
         var frd1 = 0;
-        var errorSumm = 0
+        var errorSumm = 0;
 
 
         for (ansCount = 0; ansCount < 10; ansCount++) {
@@ -85,14 +85,16 @@ app.post('/api/friends', function(req, res) {
         	frd1 = friends[i].answers[ansCount];
 
             errorCheck[ansCount] = Math.abs(userInput.answers[ansCount] - friends[i].answers[ansCount])/userInput.answers[ansCount] ;
-               errorSumm += errorCheck[ansCount] ;
+            errorSumm += errorCheck[ansCount] ;
                }
 
         errorSumm = errorSumm / 10;
+        console.log(friendSelector);
         if (errorSumm < friendSelector[0]){
             friendSelector[0] = errorSumm;
             friendSelector[1] = i;
         }
+        console.log(friendSelector);
 
 
 
@@ -100,17 +102,17 @@ app.post('/api/friends', function(req, res) {
     }
 
     var testA = friendSelector[1];
-    var testB = friends[0];
-    console.log(friends[0]);
+  //  var testB = friends[0];
+  //  console.log(friends[0]);
 
 
 
 
 
 
-    res.json(friends[1]);
+    res.json(friends[testA]);
     //res.json(friends[friendSelector[1]]);
-})
+});
 
 
 
@@ -123,12 +125,12 @@ app.get('/api/:newfriends?', function(req, res) {
         console.log(chosen);
         for (var i = 0; i < friends.length; i++) {
             if (chosen == friends[i].routeName) {
-                res.json(friends[i]);
+                res.json(friends);
                 return;
             }
         }
         res.json(false);
     } else {
-        res.json(friends[1]);
+        res.json(friends);
     }
-})
+});
