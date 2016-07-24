@@ -2,26 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="b87e1d0e-f867-4a62-9b3f-5fbf09a0c297" name="Default" comment="">
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/home.html" afterPath="$PROJECT_DIR$/public/home.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/dist/js/bootstrap.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/js/bootstrap.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/dist/js/npm.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/dist/js/npm.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/affix.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/affix.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/alert.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/alert.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/button.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/button.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/carousel.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/carousel.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/collapse.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/collapse.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/dropdown.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/dropdown.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/modal.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/modal.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/popover.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/popover.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/scrollspy.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/scrollspy.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/tab.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/tab.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/tooltip.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/tooltip.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/bootstrap/js/transition.js" afterPath="$PROJECT_DIR$/public/lib/bootstrap/js/transition.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/jquery/src/intro.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/intro.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/lib/jquery/src/outro.js" afterPath="$PROJECT_DIR$/public/lib/jquery/src/outro.js" />
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/public/survey.html" afterPath="$PROJECT_DIR$/public/survey.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/routing/api-routes.js" afterPath="$PROJECT_DIR$/routing/api-routes.js" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/server.js" afterPath="$PROJECT_DIR$/server.js" />
     </list>
     <ignored path="Friend-Finder.iws" />
     <ignored path=".idea/workspace.xml" />
@@ -44,13 +25,13 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="survey.html" pinned="false" current-in-tab="false">
+      <file leaf-file-name="survey.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/public/survey.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="407">
-              <caret line="221" column="43" selection-start-line="221" selection-start-column="43" selection-end-line="221" selection-end-column="43" />
+            <state relative-caret-position="285">
+              <caret line="132" column="44" selection-start-line="132" selection-start-column="44" selection-end-line="132" selection-end-column="44" />
               <folding>
-                <element signature="e#7631#7638#0" expanded="true" />
+                <element signature="e#7634#7641#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -68,10 +49,10 @@
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="home.html" pinned="false" current-in-tab="true">
+      <file leaf-file-name="home.html" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/public/home.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="377">
+            <state relative-caret-position="510">
               <caret line="34" column="123" selection-start-line="34" selection-start-column="123" selection-end-line="34" selection-end-column="123" />
               <folding />
             </state>
@@ -106,9 +87,9 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/public/survey.html" />
         <option value="$PROJECT_DIR$/server.js" />
         <option value="$PROJECT_DIR$/public/home.html" />
+        <option value="$PROJECT_DIR$/public/survey.html" />
       </list>
     </option>
   </component>
@@ -288,12 +269,12 @@
       <option name="presentableId" value="Default" />
       <updated>1468794588496</updated>
       <workItem from="1468794589980" duration="8869000" />
-      <workItem from="1469227351810" duration="9160000" />
+      <workItem from="1469227351810" duration="10186000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="18029000" />
+    <option name="totallyTimeSpent" value="19055000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="52" y="23" width="1406" height="867" extended-state="0" />
@@ -341,7 +322,7 @@
         <state relative-caret-position="1980">
           <caret line="132" column="14" selection-start-line="132" selection-start-column="14" selection-end-line="132" selection-end-column="14" />
           <folding>
-            <element signature="e#7631#7638#0" expanded="true" />
+            <element signature="e#7634#7641#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -397,16 +378,6 @@
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/public/index.html" />
-    <entry file="file://$PROJECT_DIR$/public/survey.html">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="407">
-          <caret line="221" column="43" selection-start-line="221" selection-start-column="43" selection-end-line="221" selection-end-column="43" />
-          <folding>
-            <element signature="e#7631#7638#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/server.js">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="445">
@@ -419,9 +390,19 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/public/home.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="377">
+        <state relative-caret-position="510">
           <caret line="34" column="123" selection-start-line="34" selection-start-column="123" selection-end-line="34" selection-end-column="123" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/public/survey.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="285">
+          <caret line="132" column="44" selection-start-line="132" selection-start-column="44" selection-end-line="132" selection-end-column="44" />
+          <folding>
+            <element signature="e#7634#7641#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
